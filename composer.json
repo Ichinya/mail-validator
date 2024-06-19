@@ -1,0 +1,32 @@
+{
+  "name": "ichinya/mail-validater",
+  "description": "Mail Validater",
+  "keywords": [
+    "sitemap"
+  ],
+  "version": "1.0.0",
+  "homepage": "https://github.com/ichinya/mail-validater",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ichi",
+      "email": "info@ichiblog.ru",
+      "homepage": "https://ichiblog.ru",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ichinya\\MailValidater\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}
