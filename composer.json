@@ -2,7 +2,9 @@
   "name": "ichinya/mail-validator",
   "description": "Mail Validator",
   "keywords": [
-    "sitemap"
+    "email",
+    "validator",
+    "check"
   ],
   "version": "1.0.0",
   "homepage": "https://github.com/ichinya/mail-validator",
