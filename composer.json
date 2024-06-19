@@ -6,7 +6,6 @@
     "validator",
     "check"
   ],
-  "version": "1.0.0",
   "homepage": "https://github.com/ichinya/mail-validator",
   "type": "library",
   "license": "MIT",
@@ -20,12 +19,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "Ichinya\\MailValidator\\": "src/"
-    },
-    "autoload-dev": {
-      "psr-4": {
-        "Ichinya\\MailValidator\\Test\\": "tests/"
-      }
+      "Ichinya\\MailValidator\\": "src/",
+      "Ichinya\\MailValidator\\Test\\": "tests/"
     }
   },
   "require": {
