@@ -1,11 +1,11 @@
 {
-  "name": "ichinya/mail-validater",
-  "description": "Mail Validater",
+  "name": "ichinya/mail-validator",
+  "description": "Mail Validator",
   "keywords": [
     "sitemap"
   ],
   "version": "1.0.0",
-  "homepage": "https://github.com/ichinya/mail-validater",
+  "homepage": "https://github.com/ichinya/mail-validator",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -18,11 +18,11 @@
   ],
   "autoload": {
     "psr-4": {
-      "Ichinya\\MailValidater\\": "src/"
+      "Ichinya\\MailValidator\\": "src/"
     },
     "autoload-dev": {
       "psr-4": {
-        "Ichinya\\MailValidater\\Test\\": "tests/"
+        "Ichinya\\MailValidator\\Test\\": "tests/"
       }
     }
   },
