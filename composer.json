@@ -19,10 +19,18 @@
   "autoload": {
     "psr-4": {
       "Ichinya\\MailValidater\\": "src/"
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Ichinya\\MailValidater\\Test\\": "tests/"
+      }
     }
   },
   "require": {
-    "php": ">=7.4.0"
+    "php": ">=8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.2"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
